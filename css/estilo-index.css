@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, rgb(15, 70, 116), rgba(11, 11, 219, 0.664));
+    width: 100%;
+    height: 1024px;
+    max-width: 1440px;
+}
+
+.box-pai{
+	width: 100%;
+	height: 100%;
+}
+
+.tela-cadastro{
+	width: 400px;
+	background: linear-gradient(rgb(8, 63, 77), rgb(13, 178, 219));
+	border-radius: 22px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 20px;
+    padding-bottom: 22px;
+	color: #fff;
+	align-items: center;
+	line-height: 50px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.preenchimento-filha{
+	width: 78%;
+	margin: 0 auto;
+	padding: 12px;
+	border: none;
+	margin-bottom: 8px;
+	border-radius: 50px;
+}
+
+.btn{
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, orangered, orange);
+	cursor: pointer;
+}
+
+.rodape{
+    color: #fff;
+}
