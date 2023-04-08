@@ -8,7 +8,17 @@ header{
 	height: 100px;
 	width: 100%;
 
-	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #fff;
+	text-align: center;
+
+	background-color: rgb(8, 63, 77);
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 body{
@@ -49,6 +59,10 @@ form{
 	width: 30%;
 }
 
+form:nth-child(-n+2){
+	border-right: 1px solid #fff;
+}
+
 .preenchimento-filha{
 	width: 78%;
 	margin: 0 auto;
@@ -71,6 +85,8 @@ form{
 	cursor: pointer;
 }
 
-.rodape{
-    color: #fff;
+footer{
+	position: absolute;
+	bottom: 0;
+	padding-left: 20px;
 }
