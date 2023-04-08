@@ -1,0 +1,39 @@
+section{
+    background: linear-gradient(rgb(8, 63, 77), rgb(13, 178, 219));
+	border-radius: 22px;
+	
+	text-align: center;
+    color: #fff;
+
+	padding-top: 20px;
+    padding-bottom: 22px;
+	
+	box-shadow: 4px 5px 0px 0px #1d1c1c;
+
+}
+
+.container-relatorio {
+    display: flex;
+    justify-content: space-around;
+
+    line-height: 40px;
+}
+
+.relatorio {
+    color: #fff;
+
+    width: 50%;
+}
+
+.relatorio:first-child {
+    border-right: 1px solid #fff;
+}
+
+.rel-status span {
+    padding: 20px 40px;
+    border-radius: 30px;
+
+    background-color: #fff;
+    color: green;
+    font-weight: 700;
+}
